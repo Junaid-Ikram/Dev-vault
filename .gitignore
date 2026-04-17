@@ -33,3 +33,4 @@ dist-ssr
 # Deployment and Local Dev
 .vercel
 .vite-port
+DEPLOYMENT.md

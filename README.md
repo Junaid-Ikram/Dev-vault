@@ -1,89 +1,55 @@
-# DevVault - Developer Services Platform
+# Devvault Solutions 💎
 
-## Overview
+A premium, cinematic digital presence for **Devvault Solutions**—a high-end software development house specializing in custom solutions, blockchain, and AI.
 
-DevVault is a comprehensive platform for managing developer services, including project management, support tickets, and client communication. Built with React and Supabase, it provides a modern and responsive user interface for both clients and administrators.
+![Devvault Logo](public/logo.svg)
 
-## Features
+## 🚀 Vision
+Devvault Solutions is built to provide elite software services with a focus on cutting-edge aesthetics, performance, and client satisfaction. Our platform is a reflection of our commitment to quality—featuring cinematic animations, premium glassmorphism, and highly interactive user experiences.
 
-- User authentication with role-based access control
-- Project management with bidding system
-- Support ticket system with replies and history tracking
-- Dashboard with analytics and notifications
-- Responsive design for desktop and mobile devices
+## 🔗 Connect With Us
+We've moved our primary community and support hub to Discord!
 
-## Getting Started
+*   **Discord Server**: [Join Devvault Solutions](https://discord.gg/7NrwwBhfkN)
+*   **Website**: [devvaultsolutions.com](https://devvaultsolutions.com)
+
+## ✨ Core Features
+- **Cinematic Design**: High-end animations using `framer-motion` and `AOS`.
+- **Glassmorphism 2.0**: Premium UI elements with advanced blur and glow effects.
+- **Responsive Layout**: Edge-to-edge cinematic experiences on all screen sizes.
+- **Interactive Map**: Custom-designed 1400px wide cinematic map on the contact page.
+- **Live Logo Loader**: Custom SVG-traced loading experience.
+
+## 🛠️ Tech Stack
+- **Frontend**: React.js, Vite
+- **Styling**: Styled-Components (Vanilla CSS approach)
+- **Animations**: Framer Motion, AOS (Animate On Scroll)
+- **Icons**: React Icons
+- **Typography**: Poppins (Google Fonts)
+
+## 📦 Getting Started
 
 ### Prerequisites
-
-- Node.js (v14 or higher)
-- npm or yarn
-- Supabase account and project
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- [Git](https://git-scm.com/)
 
 ### Installation
+1.  **Clone the Repository**:
+    ```bash
+    git clone https://github.com/Junaid-Ikram/Dev-vault.git
+    cd Dev-vault
+    ```
+2.  **Install Dependencies**:
+    ```bash
+    npm install
+    ```
+3.  **Run Development Mode**:
+    ```bash
+    npm run dev
+    ```
 
-1. Clone the repository
-   ```
-   git clone https://github.com/yourusername/devvault.git
-   cd devvault
-   ```
+## 🏗️ Deployment
+For detailed instructions on deploying this project to a **Windows VPS**, please refer to the [DEPLOYMENT.md](./DEPLOYMENT.md) guide.
 
-2. Install dependencies
-   ```
-   npm install
-   ```
-
-3. Set up environment variables
-   Create a `.env` file in the root directory with your Supabase credentials:
-   ```
-   VITE_SUPABASE_URL=your-supabase-url
-   VITE_SUPABASE_ANON_KEY=your-supabase-anon-key
-   ```
-
-4. Set up the database
-   Follow the instructions in the `DATABASE-SETUP.md` file to set up the necessary tables in Supabase.
-
-5. Add skills column to projects table
-   Run the SQL script in the Supabase SQL Editor:
-   ```sql
-   ALTER TABLE projects ADD COLUMN IF NOT EXISTS skills JSONB DEFAULT '[]'::jsonb;
-   ```
-
-6. Set up contacts table for the contact form
-   Run the SQL script in the Supabase SQL Editor or use the setup script:
-   ```
-   node setup-contacts-table.js
-   ```
-   Alternatively, you can run the provided script:
-   ```
-   node add-skills-to-projects.sql
-   ```
-
-6. Start the development server
-   ```
-   npm run dev
-   ```
-   
-   Note: The development server uses kill-port to automatically free port 5136 if it's occupied from a previous session.
-
-## Database Setup
-
-Before using the application, you need to set up the database tables in Supabase. Please refer to the `DATABASE-SETUP.md` file for detailed instructions.
-
-## Technologies Used
-
-- React
-- Vite
-- Supabase (Authentication and Database)
-- Styled Components
-- Framer Motion
-- React Router
-- React Icons
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+---
+© 2026 Devvault Solutions. All rights reserved.
