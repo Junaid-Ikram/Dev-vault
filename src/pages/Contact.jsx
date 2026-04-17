@@ -364,7 +364,7 @@ const Contact = () => {
               
               <h3 style={{ marginBottom: '1rem', fontSize: '1.2rem', fontWeight: '700' }}>Follow Our Discord</h3>
               <SocialLinks>
-                <SocialIcon href="https://discord.gg/47EMXsSazU" target="_blank" rel="noopener noreferrer">
+                <SocialIcon href="https://discord.gg/7NrwwBhfkN" target="_blank" rel="noopener noreferrer">
                   <FaDiscord />
                 </SocialIcon>
               </SocialLinks>
@@ -377,7 +377,7 @@ const Contact = () => {
                 The fastest way to reach us and join our growing community of developers and innovators.
               </DiscordDescription>
               <DiscordButton
-                href="https://discord.gg/47EMXsSazU"
+                href="https://discord.gg/7NrwwBhfkN"
                 target="_blank"
                 rel="noopener noreferrer"
               >

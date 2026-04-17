@@ -142,7 +142,7 @@ const Footer = () => {
             Innovative software solutions for businesses of all sizes. We specialize in custom software development, blockchain solutions, AI services, and more.
           </FooterDescription>
           <SocialLinks>
-            <SocialIcon href="https://discord.gg/47EMXsSazU" target="_blank" rel="noopener noreferrer" title="Join our Discord">
+            <SocialIcon href="https://discord.gg/7NrwwBhfkN" target="_blank" rel="noopener noreferrer" title="Join our Discord">
               <FaDiscord />
             </SocialIcon>
           </SocialLinks>
